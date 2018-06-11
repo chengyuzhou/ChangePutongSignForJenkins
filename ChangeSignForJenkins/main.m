@@ -41,6 +41,9 @@ void process (NSString * filePath) {
         configDic[@"buildSettings"][@"CODE_SIGN_STYLE"] = @"Manual";
         //configDic[@"buildSettings"][@"PROVISIONING_PROFILE"] = @"bfa9de6e-6a2c-414e-a288-8f37d707d87d";
         configDic[@"buildSettings"][@"PROVISIONING_PROFILE_SPECIFIER"] = @"ios_dev_provision_6.05";
+        
+        configDic[@"buildSettings"][@"ENABLE_BITCODE"] = @"NO";
+
     }
     configDic = [dic[@"objects"] objectForKey:@"73B2D7CD18BC698D00308648"];
     if (configDic) {
@@ -49,6 +52,9 @@ void process (NSString * filePath) {
         configDic[@"buildSettings"][@"CODE_SIGN_STYLE"] = @"Manual";
         //configDic[@"buildSettings"][@"PROVISIONING_PROFILE"] = @"cf4b2e26-9581-4417-86b8-37b7a0d7f6a9";
         configDic[@"buildSettings"][@"PROVISIONING_PROFILE_SPECIFIER"] = @"ios_adhoc_provision_6.05";
+        
+        configDic[@"buildSettings"][@"ENABLE_BITCODE"] = @"NO";
+
     }
     
     configDic = [dic[@"objects"] objectForKey:@"73B2D7CF18BC698D00308648"];
